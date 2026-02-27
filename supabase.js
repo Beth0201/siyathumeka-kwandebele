@@ -2,8 +2,8 @@
 // SUPABASE CONFIG
 // Replace these with your actual Supabase project credentials
 // ============================================================
-const SUPABASE_URL = 'https://YOUR_PROJECT.supabase.co';
-const SUPABASE_ANON_KEY = 'YOUR_ANON_KEY';
+const SUPABASE_URL = 'https://lxpavqeoumswtkvkalbmx.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx4cGF2cWVvdW1zd3R2a2FsYm14Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzIxODkyMjAsImV4cCI6MjA4Nzc2NTIyMH0.B-FugWtCKpT2xb61PQcAjPAjzyUAjYg7qvOzjQWPfXc';
 
 // Only initialize if real keys are provided
 if (SUPABASE_URL.includes('YOUR_PROJECT') || SUPABASE_ANON_KEY.includes('YOUR_ANON_KEY')) {
